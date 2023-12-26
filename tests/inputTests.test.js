@@ -5,6 +5,14 @@ const svgTest = function()
 {
     console.log('svgTest');
 }
+const fileNameTest = function()
+{
+    console.log('fileNameTest');
+}
+const imageSizeTest = function()
+{
+    console.log('imageSizeTest');
+}
 const squareSidesTest = function()
 {
     console.log('squareSidesTest');
@@ -22,6 +30,10 @@ describe('file', () =>
 {
     it('should be a .svg file',
     () => svgTest());
+    it('should be named logo.svg',
+    () => fileNameTest());
+    it('should be 300x200 pixels',
+    () => imageSizeTest());
 })
 
 describe('shapes', () => 
