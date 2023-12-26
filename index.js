@@ -17,3 +17,19 @@ const questions =
     },
 ];
 
+function app()
+{
+    inquirer
+        .createPromptModule(questions)
+        .then(answers =>
+            {
+                console.log({...answers});
+            }) // end then
+        .catch(err =>
+            {
+                console.log(`something went wrong generating answers: ${err}`);
+            }); // end catch
+} // end app
+
+// invoke app
+app();
