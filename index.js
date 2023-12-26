@@ -1,6 +1,6 @@
 
 const inquirer = require('inquirer');
-const { writeToFile } = require('./utils/writeToFile');
+// const { writeToFile } = require('./utils/writeToFile');
 
 const questions = 
 [
