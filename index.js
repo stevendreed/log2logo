@@ -8,7 +8,7 @@ const questions =
         type: 'input',
         message: 'enter 1 to 3 characters',
         // @TODO: validate proper characters
-        validate: ''
+        // validate: () => {console.log('tested!')}
     },
     {
         name: 'color',
@@ -20,7 +20,7 @@ const questions =
 function app()
 {
     inquirer
-        .createPromptModule(questions)
+        .prompt(questions)
         .then(answers =>
             {
                 console.log({...answers});
