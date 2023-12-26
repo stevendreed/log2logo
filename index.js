@@ -6,9 +6,15 @@ const questions =
     {
         name: 'characters',
         type: 'input',
-        message: 'enter 1 to 3 characters',
+        message: 'enter 1 to 3 characters:',
         // @TODO: validate proper characters
         // validate: () => {console.log('tested!')}
+    },
+    {
+        name: 'shape',
+        type: 'list',
+        message: 'choose a shape:',
+        choices: ['triangle', 'square', 'circle']
     },
     {
         name: 'color',
