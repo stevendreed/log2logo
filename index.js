@@ -1,6 +1,7 @@
 
 const inquirer = require('inquirer');
 // const { writeToFile } = require('./utils/writeToFile');
+const shapes = require('./lib/shapes');
 
 const questions = 
 [
