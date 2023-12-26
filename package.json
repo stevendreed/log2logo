@@ -1,0 +1,22 @@
+{
+  "name": "log2logo",
+  "version": "1.0.0",
+  "description": "a console based node.js application to generate logos with!",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.12",
+    "node": "^21.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
