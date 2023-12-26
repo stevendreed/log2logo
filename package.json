@@ -4,7 +4,7 @@
   "description": "a console based node.js application to generate logos with!",
   "main": "index.js",
   "directories": {
-    "test": "tests"
+    "test": "jest"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
